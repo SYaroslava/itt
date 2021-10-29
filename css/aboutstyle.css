@@ -1085,7 +1085,11 @@ main._block {
 
 .cookies__btn {
   width: 136px;
-  height: 46px;
+  height: 53px;
+}
+
+.cookies__btn span {
+  margin-top: -4px;
 }
 
 .cookies._close {
