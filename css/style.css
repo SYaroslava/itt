@@ -116,15 +116,10 @@ h6 {
   transition: background-color 0.5s ease 0s;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--color-yellow);
   color: var(--color-main);
-}
-
-.button:focus {
-  -webkit-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-     -moz-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-          box-shadow: 0px 0px 30px -10px var(--color-yellow);
 }
 
 .button:active {
@@ -987,15 +982,10 @@ svg {
   margin: 0 auto;
 }
 
-.stories__btn:hover {
+.stories__btn:hover,
+.stories__btn:focus {
   background-color: var(--color-yellow);
   color: var(--color-main);
-}
-
-.stories__btn:focus {
-  -webkit-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-     -moz-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-          box-shadow: 0px 0px 30px -10px var(--color-yellow);
 }
 
 .stories__btn:active {
@@ -1164,15 +1154,10 @@ svg {
   margin-top: -8px;
 }
 
-.banner__btn:hover {
-  background-color: var(--color-main);
-  color: var(--color-yellow);
-}
-
+.banner__btn:hover,
 .banner__btn:focus {
-  -webkit-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-     -moz-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-          box-shadow: 0px 0px 30px -10px var(--color-yellow);
+  background-color: var(--color-yellow);
+  color: var(--color-main);
 }
 
 .banner__btn:active {
@@ -1544,7 +1529,11 @@ main._block {
 
 .cookies__btn {
   width: 136px;
-  height: 46px;
+  height: 53px;
+}
+
+.cookies__btn span {
+  margin-top: -4px;
 }
 
 .cookies._close {

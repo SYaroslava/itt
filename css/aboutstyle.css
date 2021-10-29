@@ -116,15 +116,10 @@ h6 {
   transition: background-color 0.5s ease 0s;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--color-yellow);
   color: var(--color-main);
-}
-
-.button:focus {
-  -webkit-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-     -moz-box-shadow: 0px 0px 30px -10px var(--color-yellow);
-          box-shadow: 0px 0px 30px -10px var(--color-yellow);
 }
 
 .button:active {
